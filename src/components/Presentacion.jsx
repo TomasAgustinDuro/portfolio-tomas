@@ -1,4 +1,4 @@
-import fotoCv from "/public/fotoCv.png";
+import fotoCv from "/src/img/fotoCv.png";
 
 export function Presentacion() {
   return (

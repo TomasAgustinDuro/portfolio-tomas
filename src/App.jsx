@@ -4,6 +4,7 @@ import { Presentacion } from "./components/Presentacion";
 import { Proyectos } from "./components/Proyectos";
 import { Tecnologias } from "./components/Tecnologias";
 import { SobreMi } from "./components/SobreMi";
+import { Carrousel } from "./components/Carrousel";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Proyectos />
       <Tecnologias/>
       <SobreMi />
+      <Carrousel />
     </>
   );
 }

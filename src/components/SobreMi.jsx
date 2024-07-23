@@ -1,4 +1,4 @@
-import fotoCv from "/public/fotoCv.png";
+import fotoCv from "/src/img/fotoCv.png";
 
 export function SobreMi() {
   return (
@@ -7,9 +7,7 @@ export function SobreMi() {
         <header>Sobre mi</header>
 
         <main>
-          <div>
-            <img src={fotoCv} alt="" />
-          </div>
+          <img src={fotoCv} alt="" />
 
           <div>
             <p>
@@ -26,6 +24,8 @@ export function SobreMi() {
               feugiat augue vestibulum. Ut elementum consequat arcu id gravida.
             </p>
           </div>
+
+          
         </main>
       </section>
     </>

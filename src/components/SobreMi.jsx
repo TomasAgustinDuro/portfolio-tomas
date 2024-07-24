@@ -1,4 +1,4 @@
-import fotoCv from "/src/img/fotoCv.png";
+import fotoCv from "../assets/img/fotoCv.png";
 
 export function SobreMi() {
   return (

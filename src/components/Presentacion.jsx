@@ -1,9 +1,12 @@
-import fotoCv from "/src/img/fotoCv.png";
-
+import fotoCv from "../assets/img/fotoCv.png";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
+import {FiGithub} from "react-icons/fi";
 export function Presentacion() {
+
   return (
     <>
-      <main >
+      <main>
         <section className="main-presentacion">
           <div className="presentacion-contenedor-texto">
             <p className="presentacion-texto-nombre">
@@ -16,9 +19,15 @@ export function Presentacion() {
               la tecnicatura en Desarrollo Web y Aplicaciones moviles.
             </p>
             <div className="presentacion-buttons">
-              <button className="btn">Contactame</button>
-              <button className="btn">Linkedin</button>
-              <button className="btn">Github</button>
+              <button className="btn" > 
+                <MdOutlineMailOutline size={20} />
+                Contactame</button>
+              <button className="btn">
+              <FaLinkedin size={20} />
+              Linkedin</button>
+              <button className="btn">
+                <FiGithub size={20}/>
+                Github</button>
             </div>
           </div>
 

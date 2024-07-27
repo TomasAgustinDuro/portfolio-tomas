@@ -21,6 +21,7 @@ export function SobreMi() {
               personales como del estudio que me permiten ir avanzando con mi
               carrera profesional.
               <br />
+              <br />
               Ahora mismo estoy incursionando en el freelance aunque tambien
               estoy interesando en trabajar bajo dependencia. Mi objetivo es
               poder vivir de esta pasion que es la creacion de paginas webs,

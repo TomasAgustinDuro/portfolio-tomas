@@ -293,6 +293,8 @@ nav ul {
   justify-content: center;
   align-items: center;
   gap: 2em;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .section-sobre-mi img {

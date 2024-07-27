@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaGraduationCap } from "react-icons/fa";
 
 export function Carrousel() {
   const images = ["imagen.png", "imagen2.png", "imagen3.png"];
@@ -30,10 +31,10 @@ export function Carrousel() {
 
   return (
     <>
-      <section className="carrousel">
-        <h1>Certificados</h1>
-
-        <div className="contenedor-carrousel">
+      <section className="carrousel" id="carrousel">
+        <h2> <FaGraduationCap /> Certificados</h2>
+        
+        <div className="contenedor-carrousel"  >
           <button onClick={previous}>
             <svg
               xmlns="http://www.w3.org/2000/svg"

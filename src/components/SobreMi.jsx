@@ -1,31 +1,33 @@
 import fotoCv from "../assets/img/fotoCv.png";
+import { IoPersonOutline } from "react-icons/io5";
 
 export function SobreMi() {
   return (
     <>
-      <section className="section-sobre-mi">
-        <header>Sobre mi</header>
+      <section className="section-sobre-mi" id="sobre-mi">
+        <h2>
+          <IoPersonOutline /> Sobre mi
+        </h2>
 
         <main>
           <img src={fotoCv} alt="" />
 
           <div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec
-              elit libero. Suspendisse potenti. Nullam id vehicula enim, eget
-              varius massa. Morbi sed dignissim eros, et condimentum dolor.
-              Fusce molestie felis magna, at ullamcorper turpis sagittis non.
-              Pellentesque interdum, lorem iaculis dictum semper, magna neque
-              interdum tortor, vitae ultrices nisl nulla eu sem. Vestibulum ac
-              ipsum at nisl vehicula hendrerit at quis tellus. Donec vitae eros
-              non magna finibus mattis sit amet nec leo. Etiam aliquet ornare
-              dolor id dapibus. Vivamus ac convallis mi. Donec non sollicitudin
-              est, ut accumsan turpis. In blandit sapien in ligula imperdiet, ac
-              feugiat augue vestibulum. Ut elementum consequat arcu id gravida.
+              Me llamo Tomas, soy de Buenos Aires, Argentina. Comence a estudiar
+              desarrollo web mediante cursos hasta entrar en la Tecnicatura de
+              Desarrollo web y Aplicaciones Moviles que dictaba el ISPC. A
+              partir de ahi estoy desarrollando diversos proyectos tanto
+              personales como del estudio que me permiten ir avanzando con mi
+              carrera profesional.
+              <br />
+              Ahora mismo estoy incursionando en el freelance aunque tambien
+              estoy interesando en trabajar bajo dependencia. Mi objetivo es
+              poder vivir de esta pasion que es la creacion de paginas webs,
+              hacer que mi hobbie sea mi trabajo lo cual considero que es muy
+              importante para la salud mental de uno mismo.
             </p>
           </div>
-
-          
         </main>
       </section>
     </>

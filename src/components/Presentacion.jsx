@@ -1,8 +1,19 @@
 import fotoCv from "../assets/img/fotoCv.png";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-import {FiGithub} from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 export function Presentacion() {
+  const handleGithubClick = () => {
+    window.open("https://github.com/TomasAgustinDuro", "_blank");
+  };
+
+  const handleLinkedinClick = () => {
+    window.open("https://www.linkedin.com/in/tomas-duro/", "_blank");
+  };
+
+  const handleEmailClick = () => {
+    window.location.href = "mailto:durotomaas@gmail.com";
+  };
 
   return (
     <>
@@ -12,22 +23,25 @@ export function Presentacion() {
             <p className="presentacion-texto-nombre">
               <span>👋</span> Hola, soy Tomas
             </p>
-            <h1>Realizo paginas web</h1>
+            <h2>Realizo paginas web</h2>
             <p className="presentacion-texto-descripcion">
               Soy
               <span id="presentacion-front"> Frontend Developer</span>. Estudio
               la tecnicatura en Desarrollo Web y Aplicaciones moviles.
             </p>
             <div className="presentacion-buttons">
-              <button className="btn" > 
+              <button className="btn" onClick={handleEmailClick}>
                 <MdOutlineMailOutline size={20} />
-                Contactame</button>
-              <button className="btn">
-              <FaLinkedin size={20} />
-              Linkedin</button>
-              <button className="btn">
-                <FiGithub size={20}/>
-                Github</button>
+                Contactame
+              </button>
+              <button className="btn" onClick={handleLinkedinClick}>
+                <FaLinkedin size={20} />
+                Linkedin
+              </button>
+              <button className="btn" onClick={handleGithubClick}>
+                <FiGithub size={20} />
+                Github
+              </button>
             </div>
           </div>
 

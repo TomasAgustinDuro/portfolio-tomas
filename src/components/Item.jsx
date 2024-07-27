@@ -20,7 +20,11 @@ export function Item({ img, titulo, tecnologia, texto, github, preview }) {
 
       <div className="item-tecnologias">{tecnologia}</div>
 
-      <div className="item-texto">{texto}</div>
+      <div className="item-texto">
+        <p>
+        {texto}
+        </p>
+      </div>
 
       <div className="item-direcciones">
         <button className="btn" onClick={handleGithubClick}>

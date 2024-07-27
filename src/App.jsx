@@ -5,6 +5,7 @@ import { Proyectos } from "./components/Proyectos";
 import { Tecnologias } from "./components/Tecnologias";
 import { SobreMi } from "./components/SobreMi";
 import { Carrousel } from "./components/Carrousel";
+import {Footer} from "./components/Footer"
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Tecnologias/>
       <SobreMi />
       <Carrousel />
+      <Footer />
+     
     </>
   );
 }

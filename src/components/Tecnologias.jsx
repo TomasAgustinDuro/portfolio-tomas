@@ -10,11 +10,15 @@ import {
   FaGithub,
   FaReact,
 } from "react-icons/fa6";
+import { HiOutlinePencilAlt } from "react-icons/hi";
 
 export function Tecnologias() {
   return (
-    <section className="section-tecnologias">
-      <h1>Tecnologias</h1>
+    <section className="section-tecnologias" id="tecnologias">
+      <h2>
+        <HiOutlinePencilAlt />
+        Tecnologias
+      </h2>
 
       <div className="contenedor-tecnologias">
         <div className="contenedor-tecnologias-front">
@@ -37,15 +41,12 @@ export function Tecnologias() {
           </main>
         </div>
         <div className="contenedor-tecnologias-aprendiendo">
-          {" "}
           <header>Aprendiendo</header>
           <main>
-            <FaReact size={50}/>
-
+            <FaReact size={50} />
           </main>
         </div>
         <div className="contenedor-tecnologias-herramientas">
-          {" "}
           <header>Herramientas</header>
           <main>
             <FaGitAlt size={50} />

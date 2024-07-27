@@ -4,23 +4,18 @@ import encriptador from "../assets/img/encriptador.png";
 import climate from "../assets/img/climate.png";
 import todo from "../assets/img/to-do.png";
 import { Item } from "./Item.jsx";
-import {
-  FaHtml5,
-  FaCss3,
-  FaAngular,
-  FaJs
-} from "react-icons/fa6";
+import { FaHtml5, FaCss3, FaAngular, FaJs } from "react-icons/fa6";
+import { IoCodeSlashSharp } from "react-icons/io5";
 
-import { SiTypescript,SiFirebase } from "react-icons/si";
-
+import { SiTypescript, SiFirebase } from "react-icons/si";
 
 export function Proyectos() {
   return (
     <>
-      <section className="section-proyectos">
-        <header>
-          <h1>Proyectos</h1>
-        </header>
+      <section className="section-proyectos" id="proyectos">
+        <h2>
+          <IoCodeSlashSharp/> Proyectos
+        </h2>
 
         <main>
           <div className="grid">
@@ -32,14 +27,14 @@ export function Proyectos() {
                   <FaAngular size={25} />
                   <FaCss3 size={25} />
                   <SiTypescript size={25} />
-                  <SiFirebase size={25}/>
+                  <SiFirebase size={25} />
                 </>
               }
               texto={
-                " Una web para el emprendimiento de mi pareja. En la misma se puede sacar turno para atenderse, cancelar dicho turno, ver los trabajos que ella realiza, que servicios brinda y dejar una opinión sobre lo realizado. Se utilizo Angular y Firebase"
+                "Web para emprendimiento. Cumple la funcion de turnero ademas de visualizar trabajos y servicios dados. Creado con Angular, TypeScript, SCSS para los estilos y  Firebase para la base de datos."
               }
-              github={'https://github.com/TomasAgustinDuro/aranails'}
-              preview={'https://aracelinails-5fe42.web.app/'}
+              github={"https://github.com/TomasAgustinDuro/aranails"}
+              preview={"https://aracelinails-5fe42.web.app/"}
             />
 
             <Item
@@ -50,14 +45,14 @@ export function Proyectos() {
                   <FaAngular size={25} />
                   <FaCss3 size={25} />
                   <SiTypescript size={25} />
-                  <SiFirebase size={25}/>
+                  <SiFirebase size={25} />
                 </>
               }
               texto={
-                " Una web para el emprendimiento de mi pareja. En la misma se puede sacar turno para atenderse, cancelar dicho turno, ver los trabajos que ella realiza, que servicios brinda y dejar una opinión sobre lo realizado. Se utilizo Angular y Firebase"
+                "Template web. Es adaptable para cualquier negocio. Creado con Angular, TypeScript y utilice CSS para los estilos"
               }
-              github={'https://github.com/TomasAgustinDuro/Emma'}
-              preview={'https://emma-e33b8.web.app/'}
+              github={"https://github.com/TomasAgustinDuro/Emma"}
+              preview={"https://emma-e33b8.web.app/"}
             />
 
             <Item
@@ -68,14 +63,14 @@ export function Proyectos() {
                   <FaAngular size={25} />
                   <FaCss3 size={25} />
                   <SiTypescript size={25} />
-                  <SiFirebase size={25}/>
+                  <SiFirebase size={25} />
                 </>
               }
               texto={
-                " Una web para el emprendimiento de mi pareja. En la misma se puede sacar turno para atenderse, cancelar dicho turno, ver los trabajos que ella realiza, que servicios brinda y dejar una opinión sobre lo realizado. Se utilizo Angular y Firebase"
+                "Plataforma para revisar el clima. Creada con Angular, consume la API de Open Weather y utiliza SCSS para los estilos."
               }
-              github={'https://github.com/TomasAgustinDuro/ClimatePage'}
-              preview={'https://climatepage-76c59.web.app/'} 
+              github={"https://github.com/TomasAgustinDuro/ClimatePage"}
+              preview={"https://climatepage-76c59.web.app/"}
             />
 
             <Item
@@ -83,15 +78,15 @@ export function Proyectos() {
               titulo={"Encriptador"}
               tecnologia={
                 <>
-                <FaHtml5 size={25} />
-                <FaJs size={25} />
+                  <FaHtml5 size={25} />
+                  <FaJs size={25} />
                 </>
               }
               texto={
-                " Una web para el emprendimiento de mi pareja. En la misma se puede sacar turno para atenderse, cancelar dicho turno, ver los trabajos que ella realiza, que servicios brinda y dejar una opinión sobre lo realizado. Se utilizo Angular y Firebase"
+                "Plataforma que permite cifrar un mensaje. Es una web creada en tiempo de ocio. Utiliza HTML, CSS y JS"
               }
-              github={'https://github.com/TomasAgustinDuro/Encriptador'}
-              preview={'https://tomasagustinduro.github.io/Encriptador/'}
+              github={"https://github.com/TomasAgustinDuro/Encriptador"}
+              preview={"https://tomasagustinduro.github.io/Encriptador/"}
             />
 
             <Item
@@ -99,15 +94,15 @@ export function Proyectos() {
               titulo={"Aplicacion To Do"}
               tecnologia={
                 <>
-                <FaHtml5 size={25} />
-                <FaJs size={25} />
+                  <FaHtml5 size={25} />
+                  <FaJs size={25} />
                 </>
               }
               texto={
-                " Una web para el emprendimiento de mi pareja. En la misma se puede sacar turno para atenderse, cancelar dicho turno, ver los trabajos que ella realiza, que servicios brinda y dejar una opinión sobre lo realizado. Se utilizo Angular y Firebase"
+                "Web que permite armar una lista de tareas, estas son editables y eliminables. Esta creado con HTML, CSS y JS."
               }
-              github={'https://github.com/TomasAgustinDuro/ToDo-List'}
-              preview={'https://tomasagustinduro.github.io/ToDo-List/'}
+              github={"https://github.com/TomasAgustinDuro/ToDo-List"}
+              preview={"https://tomasagustinduro.github.io/ToDo-List/"}
             />
           </div>
         </main>

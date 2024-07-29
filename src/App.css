@@ -465,6 +465,23 @@ footer .links {
     height: 40px;
     margin: 0.5em 0;
   }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    margin: auto;
+    padding: 0 0 2em;
+    width: 50%;
+  }
+  
+  footer .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
 }
 
 /* Medium screens (tablets) */

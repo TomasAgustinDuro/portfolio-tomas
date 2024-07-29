@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaGraduationCap } from "react-icons/fa";
 
 export function Carrousel() {
-  const images = ["imagen.png", "imagen2.png", "imagen3.png"];
+  const images = ["python.png", "movil.png", "web.png", "programador.png"];
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [selectedImages, setSelectedImage] = useState(images[0]);
 

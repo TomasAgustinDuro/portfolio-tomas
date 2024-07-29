@@ -14,7 +14,7 @@ export function Navbar() {
         <li>
           <a href="/#carrousel">Certificados</a>
         </li>
-        <li>💻</li>
+        {/* <li>💻</li> */}
       </ul>
     </nav>
   );

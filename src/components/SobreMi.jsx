@@ -1,4 +1,4 @@
-import fotoCv from "../assets/img/fotoCv.png";
+import fotoCv from "/img/fotoCv.png";
 import { IoPersonOutline } from "react-icons/io5";
 
 export function SobreMi() {

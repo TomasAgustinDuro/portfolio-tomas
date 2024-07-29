@@ -1,4 +1,4 @@
-import fotoCv from "../assets/img/fotoCv.png";
+import fotoCv from "img/fotoCv.png";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";

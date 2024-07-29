@@ -1,8 +1,8 @@
-import ara from "../assets/img/ara.png";
-import emma from "../assets/img/emma.webp";
-import encriptador from "../assets/img/encriptador.png";
-import climate from "../assets/img/climate.png";
-import todo from "../assets/img/to-do.png";
+import ara from "/img/ara.png";
+import emma from "/img/emma.webp";
+import encriptador from "/img/encriptador.png";
+import climate from "/img/climate.png";
+import todo from "/img/to-do.png";
 import { Item } from "./Item.jsx";
 import { FaHtml5, FaCss3, FaAngular, FaJs } from "react-icons/fa6";
 import { IoCodeSlashSharp } from "react-icons/io5";

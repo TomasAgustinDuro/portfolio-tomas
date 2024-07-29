@@ -45,7 +45,8 @@ nav ul {
   gap: 1.5em;
   list-style: none;
   align-items: center;
-  background-color: rgba(217, 217, 217, 0.5);
+  justify-content: center;
+  background-color: rgba(95, 93, 93, 0.5);
   backdrop-filter: blur(10px);
   padding: 0.7em 1em;
   border-radius: 50px;
@@ -373,6 +374,11 @@ footer .links {
 
   nav li {
     font-size: 0.9em;
+  }
+
+  .btn:hover {
+    background: none;
+    color: white;
   }
 
   section {

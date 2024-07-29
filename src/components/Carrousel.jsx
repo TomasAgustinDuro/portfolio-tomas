@@ -51,7 +51,7 @@ export function Carrousel() {
           </button>
 
           
-          <img src={`src/assets/img/${selectedImages}`} alt={selectedImages} />
+          <img src={`public/img/${selectedImages}`} alt={selectedImages} />
 
           <button onClick={next}>
             <svg

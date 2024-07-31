@@ -32,15 +32,18 @@ export function Carrousel() {
   return (
     <>
       <section className="carrousel" id="carrousel">
-        <h2> <FaGraduationCap /> Certificados</h2>
-        
-        <div className="contenedor-carrousel"  >
+        <h2>
+          {" "}
+          <FaGraduationCap /> Certificados
+        </h2>
+
+        <div className="contenedor-carrousel">
           <button onClick={previous}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-arrow-badge-left"
-              width="32"
-              height="32"
+              width="100"
+              height="100"
               viewBox="0 0 24 24"
               stroke="#fff"
               fill="none"
@@ -50,15 +53,15 @@ export function Carrousel() {
             </svg>
           </button>
 
-          
-          <img src={`/img/${selectedImages}`} alt={selectedImages} />
-
+          <a href={`/img/${selectedImages}`} target="blank">
+            <img src={`/img/${selectedImages}`} alt={selectedImages} />
+          </a>
           <button onClick={next}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-arrow-badge-right"
-              width="32"
-              height="32"
+              width="100"
+              height="100"
               viewBox="0 0 24 24"
               stroke="#fff"
               fill="none"

@@ -1,0 +1,74 @@
+/* Technologies Section */
+.tecnologias {
+  width: 75%;
+}
+
+.contenedorTecnologias {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+}
+
+.contenedorTecnologias main {
+  display: flex;
+  gap: 1em;
+  padding: 1em;
+  justify-content: center;
+}
+
+.contenedorTecnologias > * {
+  border: 2px solid var(--border-color);
+  margin: auto;
+  width: 100%;
+}
+
+.contenedorTecnologias header {
+  font-size: 2em;
+  text-align: center;
+}
+
+.contenedorTecnologiasFront header {
+  background-image: linear-gradient(to bottom, var(--border-color), #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contenedorTecnologiasBack header {
+  background-image: linear-gradient(to bottom, var(--highlight-color), #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contenedorTecnologiasAprendiendo header {
+  background-image: linear-gradient(to bottom, #5e1c1c, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contenedorTecnologiasHerramientas header {
+  background-image: linear-gradient(to bottom, #244023, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contenedorTecnologias div main > * {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.contenedorTecnologias div main > *:hover {
+  transform: scale(1.2); 
+}
+
+@media (max-width: 768px) {
+  .contenedorTecnologias {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 75%;
+  }
+}

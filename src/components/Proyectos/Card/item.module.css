@@ -1,0 +1,52 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  border: solid 1px red;
+  height: 100%;
+  background: radial-gradient(circle, #0d039b42 5%, var(--bg-color) 70%);
+  border: 2px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.itemImagen {
+  width: 100%;
+  overflow: hidden;
+}
+
+.itemImagen img {
+  width: 100%;
+  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: flex;
+  margin: auto;
+}
+
+.itemImagen:hover img {
+  transform: scale(1.05);
+}
+
+.item h3 {
+  font-family: var(--font-family-mono);
+  font-weight: bold;
+  text-align: center;
+}
+
+.itemTecnologias {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.itemTexto {
+  display: flex;
+  height: 30%;
+  padding: 0 1.5em;
+}
+
+.itemDirecciones {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  padding: 1em;
+}

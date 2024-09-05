@@ -12,16 +12,18 @@ import {
 } from "react-icons/fa6";
 import { HiOutlinePencilAlt } from "react-icons/hi";
 
+import styles from "./tecnologias.module.css"
+
 export function Tecnologias() {
   return (
-    <section className="section-tecnologias" id="tecnologias">
+    <section className={styles.tecnologias} id="tecnologias">
       <h2>
         <HiOutlinePencilAlt />
         Tecnologias
       </h2>
 
-      <div className="contenedor-tecnologias">
-        <div className="contenedor-tecnologias-front">
+      <div className={styles.contenedorTecnologias}>
+        <div className={styles.contenedorTecnologiasFront}>
           <header>Frontend</header>
           <main>
             <FaHtml5 size={50} />
@@ -32,7 +34,7 @@ export function Tecnologias() {
             <FaSass size={50} />
           </main>
         </div>
-        <div className="contenedor-tecnologias-back">
+        <div className={styles.contenedorTecnologiasBack}>
           <header>Backend</header>
           <main>
             <FaFigma size={50} />
@@ -40,13 +42,13 @@ export function Tecnologias() {
             <FaPython size={50} />
           </main>
         </div>
-        <div className="contenedor-tecnologias-aprendiendo">
+        <div className={styles.contenedorTecnologiasAprendiendo}>
           <header>Aprendiendo</header>
           <main>
             <FaReact size={50} />
           </main>
         </div>
-        <div className="contenedor-tecnologias-herramientas">
+        <div className={styles.contenedorTecnologiasHerramientas}>
           <header>Herramientas</header>
           <main>
             <FaGitAlt size={50} />

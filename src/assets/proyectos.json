@@ -1,0 +1,43 @@
+[
+    {
+      "img": "/img/ara.png",
+      "titulo": "Araceli Nails",
+      "tecnologia": ["FaAngular", "FaCss3", "SiTypescript", "SiFirebase"],
+      "texto": "Web para emprendimiento. Cumple la función de turnero además de visualizar trabajos y servicios dados. Creado con Angular, TypeScript, SCSS para los estilos y Firebase para la base de datos.",
+      "github": "https://github.com/TomasAgustinDuro/aranails",
+      "preview": "https://aracelinails-5fe42.web.app/"
+    },
+    {
+      "img": "/img/emma.webp",
+      "titulo": "Emma",
+      "tecnologia": ["FaAngular", "FaCss3", "SiTypescript", "SiFirebase"],
+      "texto": "Template web. Es adaptable para cualquier negocio. Creado con Angular, TypeScript y utilice CSS para los estilos.",
+      "github": "https://github.com/TomasAgustinDuro/Emma",
+      "preview": "https://emma-e33b8.web.app/"
+    },
+    {
+      "img": "/img/climate.png",
+      "titulo": "Climate",
+      "tecnologia": ["FaReact", "FaCss3", "FaJs"],
+      "texto": "Plataforma para revisar el clima. Creada con React, consume la API de Open Weather y utiliza CSS para los estilos.",
+      "github": "https://github.com/TomasAgustinDuro/climate-page-v2",
+      "preview": "https://climate-page-v2.vercel.app/"
+    },
+    {
+      "img": "/img/encriptador.png",
+      "titulo": "Encriptador",
+      "tecnologia": ["FaHtml5", "FaJs"],
+      "texto": "Plataforma que permite cifrar un mensaje. Es una web creada en tiempo de ocio. Utiliza HTML, CSS y JS.",
+      "github": "https://github.com/TomasAgustinDuro/Encriptador",
+      "preview": "https://tomasagustinduro.github.io/Encriptador/"
+    },
+    {
+      "img": "/img/to-do.png",
+      "titulo": "Aplicacion To Do",
+      "tecnologia": ["FaHtml5", "FaJs"],
+      "texto": "Web que permite armar una lista de tareas, estas son editables y eliminables. Está creada con HTML, CSS y JS.",
+      "github": "https://github.com/TomasAgustinDuro/ToDo-List",
+      "preview": "https://tomasagustinduro.github.io/ToDo-List/"
+    }
+  ]
+  

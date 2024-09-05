@@ -1,0 +1,33 @@
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul {
+  position: fixed;
+  display: flex;
+  gap: 1.5em;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-bg-color);
+  backdrop-filter: blur(10px);
+  padding: 0.7em 1em;
+  border-radius: 50px;
+  color: var(--text-color);
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    border: solid 1px red;
+    width: 85%;
+    margin: 1em;
+    gap: 0.75em;
+  }
+
+  .nav li {
+    font-size: 0.75em;
+  }
+}

@@ -1,10 +1,12 @@
 import fotoCv from "/img/fotoCv.png";
 import { IoPersonOutline } from "react-icons/io5";
 
+import styles from "./sobreMi.module.css"
+
 export function SobreMi() {
   return (
     <>
-      <section className="section-sobre-mi" id="sobre-mi">
+      <section className={styles.sobreMi}>
         <h2>
           <IoPersonOutline /> Sobre mi
         </h2>

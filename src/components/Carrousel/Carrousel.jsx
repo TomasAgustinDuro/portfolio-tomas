@@ -1,43 +1,35 @@
 import { useState } from "react";
 import { FaGraduationCap } from "react-icons/fa";
+import styles from "./carrousel.module.css";
 
 export function Carrousel() {
   const images = ["python.png", "movil.png", "web.png", "programador.png"];
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [selectedImages, setSelectedImage] = useState(images[0]);
 
-  const selectedNewImage = (index, images, next = true) => {
-    const condition = next
-      ? selectedIndex < images.length - 1
-      : selectedIndex > 0;
-    const nextIndex = next
-      ? condition
-        ? selectedIndex + 1
-        : 0
-      : condition
-      ? selectedIndex - 1
-      : images.length - 1;
-    setSelectedImage(images[nextIndex]);
+  const updateSelectedImage = (direction) => {
+    let nextIndex = selectedIndex;
+    if (direction === "next") {
+      nextIndex = (selectedIndex + 1) % images.length;
+    } else if (direction === "prev") {
+      nextIndex = (selectedIndex - 1 + images.length) % images.length;
+    }
     setSelectedIndex(nextIndex);
+    setSelectedImage(images[nextIndex]);
   };
 
-  const previous = () => {
-    selectedNewImage(selectedIndex, images, false);
-  };
-
-  const next = () => {
-    selectedNewImage(selectedIndex, images);
-  };
+  const previous = () => updateSelectedImage("prev");
+  const next = () => updateSelectedImage("next");
 
   return (
     <>
-      <section className="carrousel" id="carrousel">
+      <section className={styles.carrousel} id="carrousel">
         <h2>
           {" "}
           <FaGraduationCap /> Certificados
         </h2>
 
-        <div className="contenedor-carrousel">
+        <div className={styles.contenedorCarrousel}>
           <button onClick={previous}>
             <svg
               xmlns="http://www.w3.org/2000/svg"

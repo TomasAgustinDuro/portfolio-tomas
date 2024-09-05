@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { FiGithub, FiLink } from "react-icons/fi";
+import styles from "./item.module.css"
 
 export function Item({ img, titulo, tecnologia, texto, github, preview }) {
   const handleGithubClick = () => {
@@ -11,22 +12,22 @@ export function Item({ img, titulo, tecnologia, texto, github, preview }) {
   }
 
   return (
-    <div className="item">
-      <div className="item-imagen">
+    <div className={styles.item}>
+      <div className={styles.itemImagen}>
         <img src={img} alt={titulo} />
       </div>
 
       <h3>{titulo}</h3>
 
-      <div className="item-tecnologias">{tecnologia}</div>
+      <div className={styles.itemTecnologias}>{tecnologia}</div>
 
-      <div className="item-texto">
+      <div className={styles.itemTexto}>
         <p>
         {texto}
         </p>
       </div>
 
-      <div className="item-direcciones">
+      <div className={styles.itemDirecciones}>
         <button className="btn" onClick={handleGithubClick}>
           <FiGithub />
           Code

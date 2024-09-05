@@ -1,0 +1,54 @@
+.sobreMi {
+  width: 75%;
+  background: radial-gradient(
+    circle at 70% 50%,
+    rgba(13, 34, 99, 0.349) 0%,
+    var(--bg-color) 30%
+  );
+}
+
+.sobreMi main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.sobreMi img {
+  width: 30%;
+}
+
+.sobreMi main p {
+  padding: 1em;
+  background-color: rgba(217, 217, 217, 0.5);
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .sobreMi img {
+    width: 75%;
+    margin: auto;
+  }
+
+  .sobreMi main {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .sobreMi p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sobreMi main {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+  }
+}

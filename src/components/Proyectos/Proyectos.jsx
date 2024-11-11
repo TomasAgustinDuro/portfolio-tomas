@@ -1,7 +1,7 @@
 import { IoCodeSlashSharp } from "react-icons/io5";
 import proyectos from "../../assets/proyectos.json";
 import { Item } from "./index";
-import { FaHtml5, FaCss3, FaReact, FaAngular, FaJs } from "react-icons/fa6";
+import { FaHtml5, FaCss3, FaReact, FaAngular, FaJs, FaPython, FaNodeJs } from "react-icons/fa6";
 import { SiTypescript, SiFirebase } from "react-icons/si";
 
 import styles from "./Proyectos.module.css";
@@ -15,6 +15,8 @@ export function Proyectos() {
     FaJs: <FaJs size={25} />,
     SiTypescript: <SiTypescript size={25} />,
     SiFirebase: <SiFirebase size={25} />,
+    FaPython: <FaPython size={25}/>,
+    FaNode: <FaNodeJs size={25}/>
   };
 
   return (

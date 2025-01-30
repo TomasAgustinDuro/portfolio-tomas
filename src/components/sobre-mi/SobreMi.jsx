@@ -1,14 +1,16 @@
 import fotoCv from "/img/fotoCv.png";
 import { IoPersonOutline } from "react-icons/io5";
-
-import styles from "./sobreMi.module.css"
+import styles from "./sobreMi.module.css";
+import { useTranslation } from "react-i18next";
 
 export function SobreMi() {
+  const { t, i18n } = useTranslation();
+
   return (
     <>
       <section className={styles.sobreMi}>
         <h2>
-          <IoPersonOutline /> Sobre mi
+          <IoPersonOutline /> {t("aboutMe.title")}
         </h2>
 
         <main>
@@ -16,19 +18,10 @@ export function SobreMi() {
 
           <div>
             <p>
-              Me llamo Tomás, soy de Buenos Aires, Argentina. Comencé a estudiar
-              desarrollo web mediante cursos hasta ingresar en la Tecnicatura de
-              Desarrollo Web y Aplicaciones Móviles que dicta el ISPC. A partir
-              de ahí, estoy desarrollando diversos proyectos tanto personales
-              como del estudio, lo que me permite avanzar en mi carrera
-              profesional.
+              {t("aboutMe.descriptionFirst")}
               <br />
               <br />
-              Ahora mismo estoy incursionando en el freelance, aunque también
-              estoy interesado en trabajar bajo dependencia. Mi objetivo es
-              poder vivir de esta pasión que es la creación de páginas web,
-              hacer que mi hobby sea mi trabajo, lo cual considero que es muy
-              importante para la salud mental de uno mismo.
+              {t("aboutMe.descriptionSecond")}
             </p>
           </div>
         </main>

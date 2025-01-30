@@ -3,6 +3,9 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import styles from "./presentacion.module.css";
+import { useTranslation } from "react-i18next";
+import { Trans } from "react-i18next";
+
 
 const handleLinkClick = (url, isMail = false) => {
   if (isMail) {
@@ -13,18 +16,21 @@ const handleLinkClick = (url, isMail = false) => {
 };
 
 export function Presentacion() {
+  const { t, i18n} = useTranslation();
+
   return (
     <main>
+
       <section className={styles.main}>
         <div className={styles.contenedorTexto}>
           <p className={styles.textoNombre}>
-            <span>👋</span> Hola, soy Tomas
+           {t('presentacion.greeting')}
           </p>
-          <h2>Realizo páginas web</h2>
+          <h2>{t('presentacion.title')}</h2>
           <p className={styles.textoDescripcion}>
-            Soy
-            <span id={styles.front}> Frontend Developer</span>. Estudio la
-            tecnicatura en Desarrollo Web y Aplicaciones móviles.
+            <Trans i18nKey="presentacion.description">
+              Soy <span className={styles.front}>Frontend Developer</span>. Estudio la tecnicatura en Desarrollo Web y Aplicaciones móviles.
+            </Trans>
           </p>
           <div className={styles.buttons}>
             <button
@@ -32,7 +38,7 @@ export function Presentacion() {
               onClick={() => handleLinkClick("durotomaas@gmail.com", true)}
             >
               <MdOutlineMailOutline size={20} />
-              Contáctame
+              {t('presentacion.contact')}
             </button>
             <button
               className="btn"
@@ -41,7 +47,7 @@ export function Presentacion() {
               }
             >
               <FaLinkedin size={20} />
-              Linkedin
+              {t('presentacion.linkedin')}
             </button>
             <button
               className="btn"
@@ -50,7 +56,7 @@ export function Presentacion() {
               }
             >
               <FiGithub size={20} />
-              Github
+              {t('presentacion.github')}
             </button>
           </div>
         </div>

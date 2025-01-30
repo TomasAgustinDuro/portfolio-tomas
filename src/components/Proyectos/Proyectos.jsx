@@ -5,6 +5,7 @@ import { FaHtml5, FaCss3, FaReact, FaAngular, FaJs, FaPython, FaNodeJs } from "r
 import { SiTypescript, SiFirebase } from "react-icons/si";
 
 import styles from "./Proyectos.module.css";
+import { useTranslation } from "react-i18next";
 
 export function Proyectos() {
   const iconMap = {
@@ -19,11 +20,13 @@ export function Proyectos() {
     FaNode: <FaNodeJs size={25}/>
   };
 
+  const { t, i18n} = useTranslation();
+
   return (
     <>
       <section className={styles.proyectos} id="proyectos">
         <h2>
-          <IoCodeSlashSharp /> Proyectos
+          <IoCodeSlashSharp /> {t("projects.title")}
         </h2>
 
         <main>
@@ -32,9 +35,9 @@ export function Proyectos() {
               <Item
                 key={index}
                 img={proyecto.img}
-                titulo={proyecto.titulo}
+                titulo={t(proyecto.titulo)}
                 tecnologia={proyecto.tecnologia.map((icono) => iconMap[icono])}
-                texto={proyecto.texto}
+                texto={t(proyecto.texto)} 
                 github={proyecto.github}
                 preview={proyecto.preview}
                 className={styles.item}

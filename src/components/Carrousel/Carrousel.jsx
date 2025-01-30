@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { FaGraduationCap } from "react-icons/fa";
 import styles from "./carrousel.module.css";
+import { useTranslation } from "react-i18next";
+
 
 export function Carrousel() {
   const images = ["python.png", "movil.png", "web.png", "programador.png"];
@@ -21,12 +23,14 @@ export function Carrousel() {
   const previous = () => updateSelectedImage("prev");
   const next = () => updateSelectedImage("next");
 
+  const { t, i18n } = useTranslation();
+
   return (
     <>
       <section className={styles.carrousel} id="carrousel">
         <h2>
           {" "}
-          <FaGraduationCap /> Certificados
+          <FaGraduationCap /> {t("certificados.title")}{" "}
         </h2>
 
         <div className={styles.contenedorCarrousel}>

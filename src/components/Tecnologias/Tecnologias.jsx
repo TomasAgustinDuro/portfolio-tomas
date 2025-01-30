@@ -12,19 +12,23 @@ import {
 } from "react-icons/fa6";
 import { HiOutlinePencilAlt } from "react-icons/hi";
 
-import styles from "./tecnologias.module.css"
+import styles from "./tecnologias.module.css";
+
+import { useTranslation } from "react-i18next";
 
 export function Tecnologias() {
+  const { t, i18n } = useTranslation();
+
   return (
     <section className={styles.tecnologias} id="tecnologias">
       <h2>
         <HiOutlinePencilAlt />
-        Tecnologias
+        {t('tecnologies.title')}
       </h2>
 
       <div className={styles.contenedorTecnologias}>
         <div className={styles.contenedorTecnologiasFront}>
-          <header>Frontend</header>
+          <header>{t('tecnologies.frontend')}</header>
           <main>
             <FaHtml5 size={50} />
             <FaCss3 size={50} />
@@ -35,7 +39,7 @@ export function Tecnologias() {
           </main>
         </div>
         <div className={styles.contenedorTecnologiasBack}>
-          <header>Backend</header>
+          <header>{t('tecnologies.backend')}</header>
           <main>
             <FaFigma size={50} />
             <FaSass size={50} />
@@ -43,13 +47,13 @@ export function Tecnologias() {
           </main>
         </div>
         <div className={styles.contenedorTecnologiasAprendiendo}>
-          <header>Aprendiendo</header>
+          <header>{t('tecnologies.learning')}</header>
           <main>
             <FaReact size={50} />
           </main>
         </div>
         <div className={styles.contenedorTecnologiasHerramientas}>
-          <header>Herramientas</header>
+          <header>{t('tecnologies.tools')}</header>
           <main>
             <FaGitAlt size={50} />
             <FaGithub size={50} />

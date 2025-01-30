@@ -1,0 +1,74 @@
+{
+  "presentacion": {
+    "greeting": "👋 Hi, I'm Tomás",
+    "title": "I create web pages",
+    "description": "I'm a <1>Frontend Developer</1>. I'm studying Web Development and Mobile Applications.",
+    "contact": "Contact me",
+    "linkedin": "Linkedin",
+    "github": "Github"
+  },
+
+  "tecnologies": {
+    "title": "Tecnologies",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools",
+    "learning": "Learning"
+  },
+
+  "aboutMe": {
+    "title": "About me",
+    "descriptionFirst": "My name is Tomás, I am from Buenos Aires, Argentina. I started studying web development through courses until I enrolled in the Web Development and Mobile Applications Web Development and Mobile Applications dictated by the ISPC. Since then, I'm from there, I'm developing several projects both personal and studio projects, which allows me to advance in my professional career. career.",
+    "descriptionSecond": " Right now I'm working as a freelancer, although I'm also interested in freelance work. I am also interested in working as a freelancer. My goal is to be able to live from this passion that is the creation of web pages, make my hobby my job, which I consider very important for one's mental health. important for one's mental health."
+  },
+
+  "projects": {
+    "title": "Projects",
+    "carhub": {
+      "title": "Carhub",
+      "text": "Website for a car agency. A fully functional site for customers to contact, view available cars, learn more about the company, and leave feedback. Built with React, TypeScript, SCSS for styling, and Node with Express for the database."
+    },
+    "worldTimeShift": {
+      "title": "World Time Shift",
+      "text": "Web application to convert time zones between cities. Allows you to quickly know the exact time in any city, making time zone management easier. Created with React, JavaScript, and CSS for the design, and uses APIs like Geonames and OpenCage, along with Moment-timezone from NPM for conversion."
+    },
+    "administradorDiarios": {
+      "title": "Newspapper Manager",
+      "text": "A web application for managing a newspaper sales business. It allows efficient management of resources, sales, and returns. Developed with React, JavaScript, and CSS for the frontend, and Python with SQLite3 for the backend, providing a scalable and functional solution."
+    },
+    "climate": {
+      "title": "Climate",
+      "text": "Platform to check the weather. Created with React, it consumes the Open Weather API and uses CSS for styling."
+    },
+    "emma": {
+      "title": "Emma",
+      "text": "Web template. It is adaptable for any business. Created with Angular, TypeScript, and CSS for styling."
+    },
+    "encriptador": {
+      "title": "Encryptor",
+      "text": "Platform that allows you to encrypt a message. It is a web created in leisure time. It uses HTML, CSS, and JS."
+    },
+    "toDo": {
+      "title": "To Do Application",
+      "text": "Web that allows you to create a task list, these are editable and deletable. It is created with HTML, CSS, and JS."
+    },
+    "turns": {
+      "title": "Turns bot",
+      "text": "Turn reservation automation with Selenium and notifications by Telegram. I developed a Python script with Selenium to automate the search and reservation of turns in the City of Buenos Aires. The script logs in, searches and filters available turns, and notifies by Telegram when there is one available."
+    },
+    "recommendationDisk": {
+      "title": "Recommendation Disk",
+      "text": "I created a Telegram bot that, through a command and passing a Youtube Music playlist, is responsible for analyzing it and recommending a disk that is within it for you to listen to."
+    }
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About me",
+    "tecnologies": "Tecnologies",
+    "projects": "Projects",
+    "certificates": "Certificates"
+  },
+  "certificados": {
+    "title": "Certificates"
+  }
+}

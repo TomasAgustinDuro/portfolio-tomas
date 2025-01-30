@@ -5,10 +5,11 @@ import { Proyectos } from "./components";
 import { Tecnologias } from "./components";
 import { SobreMi } from "./components";
 import { Carrousel } from "./components";
-import { Footer } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import '../i18n'
 
 function App() {
+
   return (
     <Router>
       <Navbar />
@@ -19,7 +20,6 @@ function App() {
         <Route path="/sobre-mi" element={<SobreMi />} />
         <Route path="/certificados" element={<Carrousel />} />
       </Routes>
-      <Footer />
     </Router>
   );
 }

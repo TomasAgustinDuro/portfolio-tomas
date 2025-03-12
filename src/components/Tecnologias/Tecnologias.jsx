@@ -11,55 +11,133 @@ import {
   FaReact,
 } from "react-icons/fa6";
 import { HiOutlinePencilAlt } from "react-icons/hi";
+import { motion } from "framer-motion";
 
 import styles from "./tecnologias.module.css";
 
 import { useTranslation } from "react-i18next";
 
 export function Tecnologias() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <section className={styles.tecnologias} id="tecnologias">
       <h2>
         <HiOutlinePencilAlt />
-        {t('tecnologies.title')}
+        {t("tecnologies.title")}
       </h2>
 
-      <div className={styles.contenedorTecnologias}>
+      <motion.div
+        className={styles.contenedorTecnologias}
+        initial={{ opacity: 0, scale: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.4,
+          scale: { type: "spring", visualDuration: 0.4, bounce: 0.2 },
+        }}
+      >
         <div className={styles.contenedorTecnologiasFront}>
-          <header>{t('tecnologies.frontend')}</header>
+          <header>{t("tecnologies.frontend")}</header>
           <main>
-            <FaHtml5 size={50} />
-            <FaCss3 size={50} />
-            <FaAngular size={50} />
-            <FaJs size={50} />
-            <FaFigma size={50} />
-            <FaSass size={50} />
+            <a
+              href="https://es.wikipedia.org/wiki/HTML"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaHtml5 size={50} />
+            </a>
+            <a
+              href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaCss3 size={50} />
+            </a>
+            <a
+              href="https://es.wikipedia.org/wiki/Angular_(framework)"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaAngular size={50} />
+            </a>
+            <a
+              href="https://es.wikipedia.org/wiki/React"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaReact size={50} />
+            </a>
+            <a
+              href="https://es.wikipedia.org/wiki/JavaScript"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaJs size={50} />
+            </a>
+            <a
+              href="https://es.wikipedia.org/wiki/Figma"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFigma size={50} />
+            </a>
+            <a
+              href="https://es.wikipedia.org/wiki/Sass"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaSass size={50} />
+            </a>
           </main>
         </div>
+
         <div className={styles.contenedorTecnologiasBack}>
-          <header>{t('tecnologies.backend')}</header>
+          <header>{t("tecnologies.backend")}</header>
           <main>
-            <FaFigma size={50} />
-            <FaSass size={50} />
-            <FaPython size={50} />
+            <a
+              href="https://es.wikipedia.org/wiki/Figma"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFigma size={50} />
+            </a>
+            <a
+              href="https://es.wikipedia.org/wiki/Sass"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaSass size={50} />
+            </a>
+            <a
+              href="https://es.wikipedia.org/wiki/Python"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaPython size={50} />
+            </a>
           </main>
         </div>
-        <div className={styles.contenedorTecnologiasAprendiendo}>
-          <header>{t('tecnologies.learning')}</header>
-          <main>
-            <FaReact size={50} />
-          </main>
-        </div>
+
         <div className={styles.contenedorTecnologiasHerramientas}>
-          <header>{t('tecnologies.tools')}</header>
+          <header>{t("tecnologies.tools")}</header>
           <main>
-            <FaGitAlt size={50} />
-            <FaGithub size={50} />
+            <a
+              href="https://es.wikipedia.org/wiki/Git"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGitAlt size={50} />
+            </a>
+            <a
+              href="https://es.wikipedia.org/wiki/GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub size={50} />
+            </a>
           </main>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

@@ -1,5 +1,13 @@
 [
   {
+    "img": "/img/e-commerce.png",
+    "titulo": "projects.demo.title",
+    "tecnologia": ["FaHtml5","FaCss3", "FaJs"],
+    "texto": "projects.demo.text",
+    "github": "https://github.com/TomasAgustinDuro/practice-store",
+    "preview": "https://practice-store-six.vercel.app/"
+  },
+  {
     "img": "/img/carhub.png",
     "titulo": "projects.carhub.title",
     "tecnologia": ["FaReact", "FaCss3", "SiTypescript", "FaNode"],
@@ -59,7 +67,7 @@
   {
     "img": "/img/encriptador.png",
     "titulo": "projects.encriptador.title",
-    "tecnologia": ["FaHtml5", "FaJs"],
+    "tecnologia": ["FaHtml5","FaCss3", "FaJs"],
     "texto": "projects.encriptador.text",
     "github": "https://github.com/TomasAgustinDuro/Encriptador",
     "preview": "https://tomasagustinduro.github.io/Encriptador/"

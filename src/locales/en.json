@@ -24,6 +24,10 @@
 
   "projects": {
     "title": "Projects",
+    "demo": {
+      "title": "E-commerce",
+      "text": "E-commerce prototype featuring a shopping cart with local storage data persistence and MercadoPago integration for payment processing. Developed using HTML for structure, CSS for design, and JavaScript for logic and interactivity"
+    },
     "carhub": {
       "title": "Carhub",
       "text": "Website for a car agency. A fully functional site for customers to contact, view available cars, learn more about the company, and leave feedback. Built with React, TypeScript, SCSS for styling, and Node with Express for the database."

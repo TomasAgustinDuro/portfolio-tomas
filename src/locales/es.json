@@ -24,6 +24,10 @@
 
   "projects": {
     "title": "Proyectos",
+    "demo": {
+      "title": "E-commerce",
+      "text": "Prototipo de e-commerce que incluye un carrito de compras con persistencia de datos en el almacenamiento local y una integración con MercadoPago para procesar pagos. Desarrollado utilizando HTML para la estructura, CSS para el diseño y JavaScript para la lógica y la interactividad"
+    },
     "carhub": {
       "title": "Carhub",
       "text": "Web para una agencia de autos. Es una web completamente funcional para que el cliente pueda contactar, ver autos disponibles, conocer más sobre la empresa y dejar su opinión. Creado con React, TypeScript, SCSS para estilos y Node con Express para la base de datos"

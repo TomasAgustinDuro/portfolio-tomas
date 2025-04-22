@@ -19,6 +19,10 @@
   z-index: 1;
 }
 
+.nav li{
+  cursor: pointer;
+}
+
 button {
   background-color: none;
   background: none;
@@ -26,6 +30,8 @@ button {
   font-size: 1.2em;
   cursor: pointer;
 }
+
+
 
 @media (max-width: 768px) {
   .nav ul {

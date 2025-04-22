@@ -21,7 +21,7 @@ export function Presentacion() {
   return (
     <main>
 
-      <section className={styles.main}>
+      <section className={styles.main} id="presentacion">
         <div className={styles.contenedorTexto}>
           <p className={styles.textoNombre}>
            {t('presentacion.greeting')}

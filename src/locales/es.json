@@ -24,47 +24,18 @@
 
   "projects": {
     "title": "Proyectos",
-    "demo": {
-      "title": "E-commerce",
-      "text": "Prototipo de e-commerce que incluye un carrito de compras con persistencia de datos en el almacenamiento local y una integración con MercadoPago para procesar pagos. Desarrollado utilizando HTML para la estructura, CSS para el diseño y JavaScript para la lógica y la interactividad"
+    "laGenerala": {
+      "title": "Generala",
+      "text": "Juego web de dados que replica el clásico juego de 'La Generala', con lógica de turnos, puntajes y validación de combinaciones. Desarrollado con React y Tailwind, con una arquitectura desacoplada y centrada en la lógica de negocio, permitiendo escalar y mantener fácilmente el proyecto."
     },
-    "carhub": {
-      "title": "Carhub",
-      "text": "Web para una agencia de autos. Es una web completamente funcional para que el cliente pueda contactar, ver autos disponibles, conocer más sobre la empresa y dejar su opinión. Creado con React, TypeScript, SCSS para estilos y Node con Express para la base de datos"
-    },
-    "turns":{
-      "title": "Bot de Turnos",
-      "text": "Automatización de reservas de turnos con Selenium y notificaciones por Telegram. Desarrollé un script en Python con Selenium para automatizar la búsqueda y reserva de turnos en la Ciudad de Buenos Aires. El script inicia sesión, busca y filtra turnos disponibles, y notifica por Telegram cuando hay uno libre."
-    },
-    "recommendationDisk":{
-      "title": "Bot de recomendación de discos",
-      "text": "Cree un bot de Telegram que mediante un comando y pasándole una playlist de Youtube Music se encarga de analizarla y recomendar un disco que este dentro de ella para que escuches."
-    },
-    "worldTimeShift": {
-      "title": "World Time Shift",
-      "text":"Aplicación web para convertir horarios entre diferentes ciudades. Permite conocer rápidamente la hora exacta en cualquier ciudad, facilitando la gestión de zonas horarias. Creada con React, JavaScript y CSS para el diseño, y utiliza APIs como Geonames y OpenCage, además de Moment-timezone de NPM para la conversión."
+    "araceliNails": {
+      "title": "Araceli Nails",
+      "text": "Landing page desarrollada con Angular y SCSS, enfocada en el diseño y la experiencia del usuario. Cuenta con secciones animadas, integración con redes sociales y estética pensada para dispositivos móviles. Una muestra de cómo combinar frontend moderno con diseño atractivo."
     },
     "administradorDiarios": {
       "title": "Administrador de diarios",
       "text": "Aplicación web para la administración de un negocio de venta de diarios. Permite gestionar recursos, ventas y devoluciones de forma eficiente. Desarrollada con React, JavaScript y CSS para el frontend, y Python con SQLite3 para el backend, proporcionando una solución escalable y funcional."
-    },
-    "climate": {
-      "title": "Climate",
-      "text": "Plataforma para revisar el clima. Creada con React, consume la API de Open Weather y utiliza CSS para los estilos."
-    },
-    "emma": {
-      "title": "Emma",
-      "text": "Template web. Es adaptable para cualquier negocio. Creado con Angular, TypeScript y utilice CSS para los estilos."
-    },
-    "encriptador": {
-      "title": "Encriptador",
-      "text": "Plataforma que permite cifrar un mensaje. Es una web creada en tiempo de ocio. Utiliza HTML, CSS y JS."
-    },
-    "toDo": {
-      "title": "Aplicación To Do",
-      "text": "Web que permite armar una lista de tareas, estas son editables y eliminables. Está creada con HTML, CSS y JS."
     }
-
   },
   "navbar": {
     "home": "Home",
@@ -73,7 +44,7 @@
     "projects": "Proyectos",
     "certificates": "Certificados"
   },
-  "certificados":{
+  "certificados": {
     "title": "Certificados"
   }
 }

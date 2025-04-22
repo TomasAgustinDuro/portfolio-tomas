@@ -23,6 +23,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 2em;
+  padding-bottom: 200px;
   background: radial-gradient(
     circle at 70% 50%,
     rgba(13, 34, 99, 0.349) 0%,

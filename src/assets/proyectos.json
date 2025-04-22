@@ -1,44 +1,21 @@
 [
   {
-    "img": "/img/e-commerce.png",
-    "titulo": "projects.demo.title",
-    "tecnologia": ["FaHtml5","FaCss3", "FaJs"],
-    "texto": "projects.demo.text",
-    "github": "https://github.com/TomasAgustinDuro/practice-store",
-    "preview": "https://practice-store-six.vercel.app/"
-  },
-  {
-    "img": "/img/carhub.png",
-    "titulo": "projects.carhub.title",
-    "tecnologia": ["FaReact", "FaCss3", "SiTypescript", "FaNode"],
-    "texto": "projects.carhub.text",
-    "github": "https://github.com/TomasAgustinDuro/Carhub-project",
-    "preview": "https://carhub-tau.vercel.app/"
-  },
-  {
-    "img": "/img/turns.png",
-    "titulo": "projects.turns.title",
-    "tecnologia": ["FaPython"],
-    "texto": "projects.turns.text",
-    "github": "https://github.com/TomasAgustinDuro/random-selector",
-    "preview": "https://web.telegram.org/k/#@PadelTurnBot"
-  },
-  {
-    "img": "/img/disk.png",
-    "titulo": "projects.recommendationDisk.title",
-    "tecnologia": ["FaPython"],
-    "texto": "projects.recommendationDisk.text",
-    "github": "https://github.com/TomasAgustinDuro/Scrapping-python",
-    "preview": "https://web.telegram.org/k/#@DiskSelectorBot"
-  },
-  {
-    "img": "/img/world.png",
-    "titulo": "projects.worldTimeShift.title",
+    "img": "/img/generala.png",
+    "titulo": "projects.laGenerala.title",
     "tecnologia": ["FaReact", "FaCss3", "FaJs"],
-    "texto": "projects.worldTimeShift.text",
-    "github": "https://github.com/TomasAgustinDuro/WorldTimeShift",
-    "preview": "https://world-time-shift.vercel.app/"
+    "texto": "projects.laGenerala.text",
+    "github": "https://github.com/TomasAgustinDuro/generala",
+    "preview": "https://generala-tomasduro.vercel.app"
   },
+  {
+    "img": "/img/ara.png",
+    "titulo": "projects.araceliNails.title",
+    "tecnologia": ["FaAngular", "FaCss3", "FaJs"],
+    "texto": "projects.araceliNails.text",
+    "github": "https://github.com/TomasAgustinDuro/araceliNails",
+    "preview": "https://aracelinails.vercel.app"
+  },
+
   {
     "img": "/img/diarios.png",
     "titulo": "projects.administradorDiarios.title",
@@ -46,38 +23,5 @@
     "texto": "projects.administradorDiarios.text",
     "github": "https://github.com/TomasAgustinDuro/adminitradorNegocios",
     "preview": "https://administrador-negocios-mu.vercel.app"
-  },
-  {
-    "img": "/img/climate.png",
-    "titulo": "projects.climate.title",
-    "tecnologia": ["FaReact", "FaCss3", "FaJs"],
-    "texto": "projects.climate.text",
-    "github": "https://github.com/TomasAgustinDuro/climate-page-v2",
-    "preview": "https://climate-page-v2.vercel.app/"
-  },
-  {
-    "img": "/img/emma.png",
-    "titulo": "projects.emma.title",
-    "tecnologia": ["FaAngular", "FaCss3", "SiTypescript", "SiFirebase"],
-    "texto": "projects.emma.text",
-    "github": "https://github.com/TomasAgustinDuro/Emma",
-    "preview": "https://emma-e33b8.web.app/"
-  },
-
-  {
-    "img": "/img/encriptador.png",
-    "titulo": "projects.encriptador.title",
-    "tecnologia": ["FaHtml5","FaCss3", "FaJs"],
-    "texto": "projects.encriptador.text",
-    "github": "https://github.com/TomasAgustinDuro/Encriptador",
-    "preview": "https://tomasagustinduro.github.io/Encriptador/"
-  },
-  {
-    "img": "/img/to-do.png",
-    "titulo": "projects.toDo.title",
-    "tecnologia": ["FaHtml5", "FaJs"],
-    "texto": "projects.toDo.text",
-    "github": "https://github.com/TomasAgustinDuro/ToDo-List",
-    "preview": "https://tomasagustinduro.github.io/ToDo-List/"
   }
 ]

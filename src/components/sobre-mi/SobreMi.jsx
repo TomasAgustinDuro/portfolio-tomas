@@ -2,7 +2,7 @@ import fotoCv from "/img/fotoCv.png";
 import { IoPersonOutline } from "react-icons/io5";
 import styles from "./sobreMi.module.css";
 import { useTranslation } from "react-i18next";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 export function SobreMi() {
   const { t } = useTranslation();
@@ -14,6 +14,7 @@ export function SobreMi() {
   return (
     <>
       <motion.section
+        id="sobre-mi"
         className={styles.sobreMi}
         initial="hidden"
         whileInView="reveal"
@@ -24,7 +25,7 @@ export function SobreMi() {
           <IoPersonOutline /> {t("aboutMe.title")}
         </h2>
 
-        <main>
+        <section>
           <img src={fotoCv} alt="" />
 
           <div>
@@ -35,7 +36,7 @@ export function SobreMi() {
               {t("aboutMe.descriptionSecond")}
             </p>
           </div>
-        </main>
+        </section>
       </motion.section>
     </>
   );

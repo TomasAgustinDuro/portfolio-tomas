@@ -24,45 +24,17 @@
 
   "projects": {
     "title": "Projects",
-    "demo": {
-      "title": "E-commerce",
-      "text": "E-commerce prototype featuring a shopping cart with local storage data persistence and MercadoPago integration for payment processing. Developed using HTML for structure, CSS for design, and JavaScript for logic and interactivity"
+    "laGenerala": {
+      "title": "Generala",
+      "text": "Web dice game that replicates the classic 'La Generala', with turn-based logic, scoring, and combination validation. Developed with React and Tailwind, featuring a decoupled architecture focused on business logic, allowing for easy scalability and maintenance."
     },
-    "carhub": {
-      "title": "Carhub",
-      "text": "Website for a car agency. A fully functional site for customers to contact, view available cars, learn more about the company, and leave feedback. Built with React, TypeScript, SCSS for styling, and Node with Express for the database."
-    },
-    "worldTimeShift": {
-      "title": "World Time Shift",
-      "text": "Web application to convert time zones between cities. Allows you to quickly know the exact time in any city, making time zone management easier. Created with React, JavaScript, and CSS for the design, and uses APIs like Geonames and OpenCage, along with Moment-timezone from NPM for conversion."
+    "araceliNails": {
+      "title": "Araceli Nails",
+      "text": "Landing page developed with Angular and SCSS, focused on design and user experience. Includes animated sections, social media integration, and a mobile-first aesthetic. A showcase of how to combine modern frontend with attractive design."
     },
     "administradorDiarios": {
-      "title": "Newspapper Manager",
-      "text": "A web application for managing a newspaper sales business. It allows efficient management of resources, sales, and returns. Developed with React, JavaScript, and CSS for the frontend, and Python with SQLite3 for the backend, providing a scalable and functional solution."
-    },
-    "climate": {
-      "title": "Climate",
-      "text": "Platform to check the weather. Created with React, it consumes the Open Weather API and uses CSS for styling."
-    },
-    "emma": {
-      "title": "Emma",
-      "text": "Web template. It is adaptable for any business. Created with Angular, TypeScript, and CSS for styling."
-    },
-    "encriptador": {
-      "title": "Encryptor",
-      "text": "Platform that allows you to encrypt a message. It is a web created in leisure time. It uses HTML, CSS, and JS."
-    },
-    "toDo": {
-      "title": "To Do Application",
-      "text": "Web that allows you to create a task list, these are editable and deletable. It is created with HTML, CSS, and JS."
-    },
-    "turns": {
-      "title": "Turns bot",
-      "text": "Turn reservation automation with Selenium and notifications by Telegram. I developed a Python script with Selenium to automate the search and reservation of turns in the City of Buenos Aires. The script logs in, searches and filters available turns, and notifies by Telegram when there is one available."
-    },
-    "recommendationDisk": {
-      "title": "Recommendation Disk",
-      "text": "I created a Telegram bot that, through a command and passing a Youtube Music playlist, is responsible for analyzing it and recommending a disk that is within it for you to listen to."
+      "title": "Newspaper Manager",
+      "text": "Web application for managing a newspaper sales business. Enables efficient handling of resources, sales, and returns. Developed with React, JavaScript, and CSS for the frontend, and Python with SQLite3 for the backend, providing a scalable and functional solution."
     }
   },
   "navbar": {
